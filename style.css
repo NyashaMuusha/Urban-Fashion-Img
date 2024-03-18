@@ -51,9 +51,9 @@ nav ul li a {
 }
 
 .content {
-    margin-top: calc((10vh - 100%) / 2);
+    margin-top: calc((100vh - 80%) / 2); /* Centering vertically */
     position: absolute;
-    left: 15%;
+    left: 15%; /* Adjust as needed */
 }
 
 .content h1 {
@@ -81,8 +81,8 @@ nav ul li a {
 
 .arrow-icons {
     position: absolute;
-    left: 0%;
-    top: calc((80vh - 80%) / 2 + 20px);
+    left: 0%; /* Same as content */
+    top: calc((100vh - 80%) / 2 + 20px); /* Align with content, adjust as needed */
 }
 
 .arrow-icons img {
@@ -91,17 +91,17 @@ nav ul li a {
 }
 
 .feature-img {
-    height: 75%;
+    height: 70%;
     position: absolute;
-    bottom: 110px;
-    right: 20px;
+    bottom: 0;
+    right: 160px;
 }
 
 .social-links {
     transform: rotate(-90deg);
     position: absolute;
     left: -80px;
-    bottom: 240px;
+    bottom: 180px;
 }
 
 .social-links a {
