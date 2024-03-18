@@ -82,7 +82,7 @@ nav ul li a {
 .arrow-icons {
     position: absolute;
     left: 0%; /* Same as content */
-    top: calc((90vh - 100%) / 2 + 20px); /* Align with content, adjust as needed */
+    top: calc((90vh - 80%) / 2 + 20px); /* Align with content, adjust as needed */
 }
 
 .arrow-icons img {
