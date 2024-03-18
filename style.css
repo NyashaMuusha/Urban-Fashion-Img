@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 .content {
-    margin-top: calc((50vh - 80%) / 2); /* Centering vertically */
+    margin-top: calc((40vh - 80%) / 2); /* Centering vertically */
     position: absolute;
     left: 15%; /* Adjust as needed */
 }
@@ -82,7 +82,7 @@ nav ul li a {
 .arrow-icons {
     position: absolute;
     left: 0%; /* Same as content */
-    top: calc((90vh - 80%) / 2 + 20px); /* Align with content, adjust as needed */
+    top: calc((90vh - 100%) / 2 + 20px); /* Align with content, adjust as needed */
 }
 
 .arrow-icons img {
@@ -91,7 +91,7 @@ nav ul li a {
 }
 
 .feature-img {
-    height: 70%;
+    height: 80%;
     position: absolute;
     bottom: 0;
     right: 160px;
